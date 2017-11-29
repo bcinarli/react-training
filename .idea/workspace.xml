@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc2c318-7403-4f8e-823b-97e9eacda3c4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/data/take-outs.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/scripts/react-training.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/assets/scripts/react-training.lib.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/data/take-outs.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/common/actions/ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/common/constants/actions/ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/common/reducers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/common/reducers/ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/common/store/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/common/store/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/components/heading.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/components/menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/components/repo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/components/repos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/components/take-out.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/components/take-outs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/containers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/views/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/views/help.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/views/home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scripts/views/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/static/index.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.production.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,7 +21,28 @@
     <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="73" lean-forward="true" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,11 +84,12 @@
         <option value="$PROJECT_DIR$/src/scripts/components/take-outs.js" />
         <option value="$PROJECT_DIR$/src/scripts/components/take-out.js" />
         <option value="$PROJECT_DIR$/app/data/take-outs.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.production.config.js" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -200,17 +191,18 @@
       <option name="presentableId" value="Default" />
       <updated>1511872860215</updated>
       <workItem from="1511872861389" duration="9759000" />
-      <workItem from="1511938920899" duration="13638000" />
+      <workItem from="1511938920899" duration="13727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23397000" />
+    <option name="totallyTimeSpent" value="23486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-139" y="-1058" width="1323" height="1058" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -475,14 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -539,6 +523,22 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="73" lean-forward="true" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
