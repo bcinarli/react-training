@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>React App</title>
+    <link rel="stylesheet" href="https://semantic-ui.com/dist/semantic.min.css"/>
+    <link rel="stylesheet" href="https://semantic-ui.com/stylesheets/docs.css"/>
+</head>
+<body class="site">
+    <div id="my-app" class="app-container article"></div>
+</body>
+</html>

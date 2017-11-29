@@ -1,0 +1,58 @@
+[
+  {
+    "groupName": "Variables",
+    "keys": [
+      {
+        "key": "States",
+        "description": "States are the inner variables in a component. You can reach a state for <code>this.state.theStateName</code>. To update a state you need to use <code>setState</code> method."
+      },
+      {
+        "key": "Props",
+        "description": "Props are injected variables to a component. You can reach a prop for <code>this.props.thePropName</code>. Inside the component you cannot change a prop value, but it will be automatically updated from a parent component or a <em>state manager</em> like <b>Redux</b>."
+      }
+    ]
+  },
+  {
+    "groupName": "Life Cycle Hooks",
+    "keys": [
+      {
+        "key": "componentWillMount",
+        "description": "This life cycle hook runs just before component output rendered."
+      },
+      {
+        "key": "componentDidMount",
+        "description": "This life cycle hook runs after the component output has been rendered. In this hook you can start to get <code>props</code> or <em>fetching</em> new content."
+      },
+      {
+        "key": "componentWillReceiveProps",
+        "description": "In this hook, you can check upcoming <code>props</code> and <code>states</code> before updating the ui. In the component hook works as <code>componentWillReceiveProps(nextProps, nextStates)</code> then in the hook you can compare your props and/or states like <code>this.props.someProp !== nextProps.someProp</code> or <code>this.states.someState !== nextStates.someState</code> Regarding to your comparison, you can call helpers methods."
+      },
+      {
+        "key": "shouldComponentUpdate",
+        "description": "In this hook, you can decide, whether the component re-renders itself or not. This will useful when you do not want immediate updates or ajax calls. e.g. during live search, you can wait for at least 3 letters in the search input. This hook must always return a boolean , either <code>true</code> or <code>false</code>"
+      },
+      {
+        "key": "componentDidUpdate",
+        "description": "This hook runs after re-rendering of the component finished. It is a good time for running a 3rd party component/api like showing a Google Maps embed etc. In this hook, <u>you should never update the state of your component. Otherwise, the component will trapped in an infinite rendering loop.</u>"
+      },
+      {
+        "key": "componentWillUnmount",
+        "description": "This hook runs just before the component will removed. It is a good time for clean-up or stopping running functions like <em>intervals</em>, <em>timers</em>."
+      }
+    ]
+  },
+  {
+    "groupName": "Event Handling",
+    "description": "In React, event handling machanism is similar to handling events on DOM element. You need to define your event attribute in <em>camelCase</em> with a JSX variable/function pass instead of a string attribute value.",
+    "keys": [
+      {
+        "key": "Defining an EventHandler",
+        "description": "Defining an eventHandler is not different than defining a method in your component. <code>handleClick(e){ /* your handler code */ }</code> is the simplest way to create an handler. Inside the handler method you can use <em>e</em> object to get any desired data regarding to your fired event and inputs etc."
+      },
+      {
+        "key": "Binding an Event",
+        "description": "In the component, in render, you can bind the defined event easily. Just add your event attribute and pass the <em>eventHandler</em> function as value. <code>&lt;a href=\"#\" onClick={this.handleClick}>Click me&lt;/a></code>. You can even pass your eventHandlers to the child components as props. With this you can trigger a parent components handler/method inside a child component."
+      }
+    ]
+  }
+]
