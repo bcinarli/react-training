@@ -1,0 +1,2 @@
+# React Training
+This is a simple introductory material for a React project setup. Visit [webpage](https://bcinarli.github.io/react-training) for sample app and some useful [hints](https://bcinarli.github.io/react-training/help).

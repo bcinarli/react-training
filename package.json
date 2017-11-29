@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "nodemon --watch webpack.config.js --exec \"webpack-dev-server --progress --colors --inline --env development\""
+    "start": "nodemon --watch webpack.config.js --exec \"webpack-dev-server --progress --colors --inline --env development\"",
+    "build": "webpack --config webpack.production.config.js --progress --colors"
   },
   "dependencies": {
     "react": "^16.2.0",
